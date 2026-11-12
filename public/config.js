@@ -3,5 +3,5 @@
 window.APP_CONFIG = {
   STRIPE_PUBLISHABLE_KEY: 'pk_test_51UZxDeQkHuejFjZ2mrYiQAAITCrKvJfyympJ8wQRo6W38ezdWmN1mZ9Fjq24rCtTDqFVMYrCX91BDSv8k9saGGbs00kZVzFjYS',
   // URL do backend hospedado (Render, Railway, Vercel etc.), sem barra final
-  API_URL: 'https://SEU-BACKEND.onrender.com'
+  API_URL: 'https://pg-strp.onrender.com/'
 };
