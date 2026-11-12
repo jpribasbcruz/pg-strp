@@ -1,4 +1,4 @@
 window.APP_CONFIG = {
-  STRIPE_PUBLISHABLE_KEY: 'pk_test_51UZxDeQkHuejFjZ2mrYiQAAITCrKvJfyympJ8wQRo6W38ezdWmN1mZ9Fjq24rCtTDqFVMYrCX91BDSv8k9saGGbs00kZVzFjYS',
+  STRIPE_PUBLISHABLE_KEY: 'pk_live_51UavuAHNGsDldonhklVa7p40vzEspCdrOw3lRA435kkNIEHNQ1MNlnyz8RjdklObtGlPYpYFEuHJZKWih4iyMLI100fw7VRk4M',
   API_URL: 'https://pg-strp.onrender.com/'
 };
