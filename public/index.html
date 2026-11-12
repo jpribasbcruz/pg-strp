@@ -3,30 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pagamento de teste – R$ 1,00</title>
-  <script src="https://js.stripe.com/v3/"></script>
+  <title>Bem-vindo</title>
   <style>
-    body { font-family: system-ui, sans-serif; background:#f6f9fc; display:flex; justify-content:center; padding:40px 16px; }
-    .card { background:#fff; width:100%; max-width:420px; padding:28px; border-radius:12px; box-shadow:0 4px 20px rgba(0,0,0,.08); }
-    h1 { font-size:1.2rem; margin:0 0 4px; }
-    p.sub { color:#555; margin:0 0 20px; }
-    button { width:100%; margin-top:20px; padding:12px; border:0; border-radius:8px; background:#635bff; color:#fff; font-size:1rem; cursor:pointer; }
-    button:disabled { opacity:.6; cursor:not-allowed; }
-    #mensagem { margin-top:16px; padding:10px; border-radius:8px; display:none; font-size:.95rem; }
-    .ok { background:#e6f7ec; color:#1a7f37; display:block !important; }
-    .erro { background:#fdeaea; color:#b42318; display:block !important; }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; font-family: system-ui, sans-serif; background:#f6f9fc; color:#222; }
+    .tela { width:100%; max-width:520px; padding:24px 16px; text-align:center; }
+    .tela img { width:100%; border-radius:16px; box-shadow:0 6px 24px rgba(0,0,0,.15); }
+    h1 { margin:24px 0 20px; font-size:1.5rem; }
+    a.botao { display:inline-block; width:100%; padding:14px 28px; background:#635bff; color:#fff; border-radius:8px; text-decoration:none; font-size:1.1rem; }
+    a.botao:hover { background:#4f46e5; }
   </style>
 </head>
 <body>
-  <div class="card">
+  <div class="tela">
+    <img src="capa.jpg" alt="Imagem de capa" />
     <h1>Pagamento de teste</h1>
-    <p class="sub">Valor: <strong>R$ 1,00</strong></p>
-    <div id="payment-element"></div>
-    <button id="pagar">Pagar</button>
-    <div id="mensagem"></div>
+    <a class="botao" href="pagar.html">Ir para o pagamento</a>
   </div>
-
-  <script src="config.js"></script>
-  <script src="app.js"></script>
 </body>
 </html>
